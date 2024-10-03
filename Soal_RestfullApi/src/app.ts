@@ -2,7 +2,7 @@ import express, { Application } from 'express';
 import bodyParser from 'body-parser';
 import productRoutes from './routes/productRoutes';
 import categoryRoutes from './routes/categoryRoutes';
-import { sequelize } from './models';
+import sequelize from './models/db';
 
 const app: Application = express();
 

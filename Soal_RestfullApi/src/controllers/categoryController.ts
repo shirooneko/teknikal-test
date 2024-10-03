@@ -1,5 +1,5 @@
 import { Request, Response } from 'express';
-import { Category } from '../models';
+import Category from '../models/category';
 import { validationResult, body } from 'express-validator';
 
 // Middleware untuk validasi input

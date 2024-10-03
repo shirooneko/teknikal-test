@@ -1,5 +1,6 @@
 import { Request, Response } from 'express';
-import { Product, Category } from '../models';
+import Product from '../models/product';
+import Category from '../models/category';
 import { validationResult } from 'express-validator';
 
 export async function createProduct(req: Request, res: Response): Promise<void> {
