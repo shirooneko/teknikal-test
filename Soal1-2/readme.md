@@ -6,6 +6,10 @@ Setiap angka dari 1 hingga `n` diperiksa sesuai dengan aturan, dan output yang s
 ### Penggunaan
 
 ```javascript
+node catKitty.js
+```
+
+```javascript
 console.log(catKitty(20).join(", "));
 ```
 
