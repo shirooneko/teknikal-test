@@ -9,8 +9,6 @@ Setiap angka dari 1 hingga `n` diperiksa sesuai dengan aturan, dan output yang s
 console.log(catKitty(20).join(", "));
 ```
 
-Ini akan mencetak urutan dari 1 hingga 20, menggantikan angka berdasarkan aturan yang ditentukan.
-
 ### Menambahkan Aturan
 
 Anda dapat menambahkan aturan baru menggunakan fungsi addrule:
