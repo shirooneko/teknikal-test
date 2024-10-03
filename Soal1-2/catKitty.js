@@ -27,9 +27,9 @@ function addRule(num, output) {
     rules.sort((a, b) => b.num - a.num);
 }
 
-// Contoh penggunaan
-console.log(catKitty(20).join(", "));
+// penggunaan
+console.log(catKitty(12).join(", "));
 
 // Menambahkan aturan baru
 addRule(13, "dog");
-console.log(catKitty(20).join(", "));
+console.log(catKitty(12).join(", "));

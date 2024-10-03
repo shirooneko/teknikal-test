@@ -6,8 +6,8 @@ This project provides a RESTful API for managing products using Node.js, Express
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/yourusername/product-api.git
-    cd product-api
+    git clone https://github.com/shirooneko/teknikal-test.git
+    cd teknikal-test
     ```
 
 2. Install dependencies:
