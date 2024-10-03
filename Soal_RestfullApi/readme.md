@@ -25,7 +25,7 @@ This project provides a RESTful API for managing products using Node.js, Express
 
 ### Create a Product
 
-- **URL:** `/products`
+- **URL:** `http://localhost:3000/api/products`
 - **Method:** `POST`
 - **Request Body:**
     ```json
@@ -54,7 +54,7 @@ This project provides a RESTful API for managing products using Node.js, Express
 
 ### Retrieve All Products
 
-- **URL:** `/products`
+- **URL:** `http://localhost:3000/api/products`
 - **Method:** `GET`
 - **Response:**
     ```json
@@ -73,7 +73,7 @@ This project provides a RESTful API for managing products using Node.js, Express
 
 ### Retrieve a Product by ID
 
-- **URL:** `/products/:id`
+- **URL:** `http://localhost:3000/api/products/:id`
 - **Method:** `GET`
 - **Response:**
     ```json
@@ -90,7 +90,7 @@ This project provides a RESTful API for managing products using Node.js, Express
 
 ### Update a Product by ID
 
-- **URL:** `/products/:id`
+- **URL:** `http://localhost:3000/api/products/:id`
 - **Method:** `PUT`
 - **Request Body:**
     ```json
@@ -119,7 +119,7 @@ This project provides a RESTful API for managing products using Node.js, Express
 
 ### Delete a Product by ID
 
-- **URL:** `/products/:id`
+- **URL:** `http://localhost:3000/api/products/:id`
 - **Method:** `DELETE`
 - **Response:**
     ```json
