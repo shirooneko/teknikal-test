@@ -19,6 +19,7 @@ This project provides a RESTful API for managing products using Node.js, Express
     ```bash
     npm run dev
     ```
+    http://localhost:3000/api/
 
 ## API Endpoints
 
